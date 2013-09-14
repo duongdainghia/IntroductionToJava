@@ -1,4 +1,4 @@
-package Chapter8ObjectsAndClasses.PassingObjectToMethod;
+package Chapter08ObjectsAndClasses.PassingObjectToMethod;
 
 import java.util.Date;
 public class Test8 {

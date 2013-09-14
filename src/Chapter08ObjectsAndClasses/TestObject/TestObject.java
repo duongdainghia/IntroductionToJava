@@ -1,4 +1,4 @@
-package Chapter8ObjectsAndClasses.TestObject;
+package Chapter08ObjectsAndClasses.TestObject;
 
 public class TestObject {
 	protected static int val = 10;
@@ -11,6 +11,13 @@ public class TestObject {
 	}
 	public TestObject() {
 		
+	}
+	
+	public static void testMethod() {
+		val = 20;
+		//b = true; // can not call instance attributes directive in static methods
+		TestObject t = new TestObject();
+		t.b = true;
 	}
 	public static void main(String[]arg) {
 		TestObject t = new TestObject();

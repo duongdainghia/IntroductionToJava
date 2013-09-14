@@ -1,4 +1,4 @@
-package Chapter8ObjectsAndClasses.PassingObjectToMethod;
+package Chapter08ObjectsAndClasses.PassingObjectToMethod;
 
 public class Test4 {
 	public static void main(String[] args) {

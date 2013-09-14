@@ -1,4 +1,4 @@
-package Chapter8ObjectsAndClasses.ArrayOfObject;
+package Chapter08ObjectsAndClasses.ArrayOfObject;
 
 public class Test {
 public static void main(String[] args) {
