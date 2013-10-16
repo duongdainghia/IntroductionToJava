@@ -48,4 +48,12 @@ public class CircleFromSimpleGeometricObject
 		System.out.println("The circle is created "+ getDateCreated() +
 		" and the radius is " + radius);
 	}
+	
+//	public boolean equals(CircleFromSimpleGeometricObject circle) {
+//		return this.radius == circle.radius;
+//	}
+	
+	public boolean equals(Object circle) {
+		return this.radius == ((CircleFromSimpleGeometricObject)circle).radius;
+	}
 }
