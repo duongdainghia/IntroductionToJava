@@ -5,6 +5,7 @@ public class CircleFromSimpleGeometricObject
 	private double radius;
 	
 	public CircleFromSimpleGeometricObject() {
+		
 	}
 	
 	public CircleFromSimpleGeometricObject(double radius) {
